@@ -7,7 +7,7 @@ Github repo: https://github.com/deniseb52
 Clone this Repo to start: 
 
 ```
-git clone https://github.com/alteredco/techdegree_project_6
+git clone https://github.com/deniseb52/techdegree_project_6
 ```
 _____________
 # Features:
@@ -35,6 +35,7 @@ This project demonstrates my comfortable working knowledge of Node.js, Express a
 customized color palette and fonts.
 Fade in animations are added on window load.
 Font awesome linked in the layout.pug head and icons added to project.
+
 
 
 
