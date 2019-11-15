@@ -37,4 +37,12 @@ Fade in animations are added on window load.
 Font awesome linked in the layout.pug head and icons added to project.
 
 
+Customize the package.json file so that running npm start will run the app.
 
+Used error handling middleware to render a Pug template
+Created error.pug to extend the layout, be set to block content, and display the error.message, error.status, and error.stack properties.
+
+When request URL is for a non-existent route, error.pug template is displayed in the browser along with the following properties:
+error.message
+error.status
+error.stack
