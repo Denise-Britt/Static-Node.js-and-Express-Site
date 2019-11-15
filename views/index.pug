@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content 
+  article.grid-container.portfolio-intro
+    div  
+      h5 Denise Britt
+      h1 Projects
+      p.lead.text-light
+        | Welcome to my projects page! Here's some awesome projects that I've handpicked just for you. Enjoy!
+  article.grid-container.portfolio-index
+    
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+        each project in projects
+          .cell.fade-in
+            a(href=`/projects/${project.id}`)
+              img.thumbnail.round(src=`${project.image_urls.thumbnail}`)
+              h5.lead.text-light= project.project_name
+
+        
+      

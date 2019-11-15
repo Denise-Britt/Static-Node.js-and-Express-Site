@@ -1,0 +1,29 @@
+{
+  "name": "deniseb52.github.io",
+  "version": "1.0.0",
+  "description": "Static node and Express Portfolio Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeniseB52/DeniseB52.github.io"
+  },
+  "author": "Denise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeniseB52/DeniseB52.github.io/issues"
+  },
+  "homepage": "https://github.com/DeniseB52/DeniseB52.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "pug": "^2.0.4"
+  },
+  "engines": {
+    "node": "^10.15.3"
+  }
+}

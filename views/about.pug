@@ -1,0 +1,52 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/')
+      i(class="fas fa-arrow-circle-left")  Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 Denise Britt
+
+        p.lead.text-light
+          | Full Stack JavaScript Developer. (Unicorn)
+
+        .portfolio-bio.fade-in
+          p
+            | I am a Full Stack JavaScript Developer, (but you can call me "Unicorn" for short) currently my favorite languages to work with are: JS, jQuery, and React.<br/><br/>
+            | Besides coding, I love spending time with my children, reading, (netflix binging) and jogging<br/><br/>
+            | As I become more and more experienced, my goal is to educate the children, minorities, and low income families in my community to ensure that people realize that the tech industry is definitely a possible path for anyone willing to put their mind to it. I want to help empower my community by providing them with these tools to encourage creativity, inspiration, motivation, self-sufficiency, and successful adaptation to the growing digitialization around us.<br/>
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        .cell.shrink
+            img.thumbnail.round(src='/static/images/propic.jpg')
+        h6 Skills
+
+        ul
+          li HTML 
+          li CSS
+          li JavaScript
+          li Node.JS
+          li Express
+          li React
+          li Python
+          li Git
+          li Pug
+          
+        h6 Contact Info
+
+
+        ul
+          li (401) 603-7273
+          li denisebritt52@gmail.com
+
+        //- Add URLs to the hrefs below to link to your social media accounts.
+        a.button.expanded.round(href='https://www.linkedin.com/in/deniseb52/' target="_blank") LinkedIn
+        a.button.expanded.round(href='https://github.com/deniseb52' target="_blank") GitHub
+        a.button.expanded.round(href='https://twitter.com/denisebritt52' target="_blank") Twitter
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/')
+      i(class="fas fa-arrow-circle-left")  Back
+  

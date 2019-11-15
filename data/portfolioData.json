@@ -1,0 +1,99 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generaor",
+        "description": "Random Quote Generaor App displays random famous quotes each time a button is clicked.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "live_link": "https://random-quotegen.netlify.com/",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit1",
+        "image_urls": {
+          "image1": "/static/images/Quotes_bike.png",
+          "image2": "/static/images/quotes_plan.png",
+          "image3": "/static/images/Quotess_dev.png",
+          "thumbnail": "/static/images/Quotes_seeds_sq.png"
+        }
+      },
+      {
+        "id": 1,
+        "project_name": "List Filter and Pagination",
+        "description": "Starting with a page that contains a list of 54 student names, photos and email addresses; my code to displays 10 names at a time, and adds a navigation system to let users click through the other student entries, 10 at a time.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "live_link": "https://list-filter-pagination.netlify.com/",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit2",
+        "image_urls": {
+          "image1": "/static/images/pagination1.png",
+          "image2": "/static/images/pagination2.png",
+          "image3": "/static/images/pagination3.png",
+          "thumbnail": "/static/images/pagination_thumbnail.png"
+        }
+      },
+      {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Adding customized and conditional behavior and interactivity Validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "jQuery"
+        ],
+        "live_link": "https://in-form.netlify.com/",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit3",
+        "image_urls": {
+          "image1": "/static/images/form_cc_validation.png",
+          "image2": "/static/images/form_validation.png",
+          "image3": "/static/images/form_validation_square.png",
+          "thumbnail": "/static/images/form_validation_square.png"
+        }
+      },
+      {
+        "id": 3,
+        "project_name": "OOP Game Show App",
+        "description": "A browser-based, word guessing game app",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "live_link": "https://phrasehuntergame.netlify.com/",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit4",
+        "image_urls": {
+          "image1": "/static/images/phrasehunter1.png",
+          "image2": "/static/images/phrasehunter2.png",
+          "image3": "/static/images/phrasehunter3.png",
+          "thumbnail": "/static/images/phrasehunter_thumbnail.png"
+        }
+      },
+      {
+        "id": 4,
+        "project_name": "PUBLIC API REQUESTS",
+        "description": "Employee directory",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "JSON",
+          "API"
+        ],
+        "live_link": "https://awesome-employee.netlify.com",
+        "github_link": "https://github.com/DeniseB52/Techdegree_Project_Unit5",
+        "image_urls": {
+          "image1": "/static/images/awesome_dir1.png",
+          "image2": "/static/images/awesome_dir2.png",
+          "image3": "/static/images/awesome_dir3.png",
+          "thumbnail": "/static/images/awesome_dir_thumbnail.png"
+        }
+      }
+    ]
+  }
+}
